@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/circleImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="15dp"
+
+        app:cardCornerRadius="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo_login" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="130dp"
+        android:fontFamily="sans-serif"
+        android:text="Android Studio"
+        android:textColor="#fff"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+    <Button
+        android:id="@+id/button_signin"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="20dp"
+
+        android:fontFamily="sans-serif-medium"
+        android:text="SignIn"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        android:background="@drawable/edit_button_signin"
+        app:backgroundTint="@null"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+    <Button
+        android:id="@+id/button_signup"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+
+        android:fontFamily="sans-serif-medium"
+        android:text="SignUp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        android:background="@drawable/edit_button_signup"
+        app:backgroundTint="@null"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_signin" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
