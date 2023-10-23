@@ -40,7 +40,7 @@ public class category_suggest_adapter extends RecyclerView.Adapter<category_sugg
     @NonNull
     @Override
     public viewholder_suggest onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view_suggest = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_activity_category_suggest, parent, false);
+        View view_suggest = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_category_suggest, parent, false);
         return new viewholder_suggest(view_suggest);
     }
 

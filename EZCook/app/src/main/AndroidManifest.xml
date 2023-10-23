@@ -31,7 +31,8 @@
         </activity>
         <activity
             android:name=".HomeActivity"
-            android:exported="true">
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan">
         </activity>
         <activity
             android:name=".model.category_regime_eat_model"

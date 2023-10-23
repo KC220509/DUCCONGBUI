@@ -11,9 +11,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class category_regime_eat_adapter extends RecyclerView.Adapter<category_regime_eat_adapter.viewholder> {
+public class category_regime_eat_adapter extends RecyclerView.Adapter<category_regime_eat_adapter.viewholder_regime> {
 //    ArrayList<category_domain> categoryDomains;
     private List<category_regime_eat_model> regimeEatModels;
     public void setData(List<category_regime_eat_model> RegimeEatModelsModels){
@@ -23,13 +24,13 @@ public class category_regime_eat_adapter extends RecyclerView.Adapter<category_r
 
     @NonNull
     @Override
-    public viewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public viewholder_regime onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view_inflate = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_category_regime_eat, parent, false);
-        return  new viewholder(view_inflate);
+        return  new viewholder_regime(view_inflate);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull viewholder holder, int position) {
+    public void onBindViewHolder(@NonNull viewholder_regime holder, int position) {
         category_regime_eat_model categoryRegimeEatModel = regimeEatModels.get(position);
         if(categoryRegimeEatModel == null){
             return;
@@ -48,10 +49,10 @@ public class category_regime_eat_adapter extends RecyclerView.Adapter<category_r
         }
         return 0;
     }
-   public class viewholder extends RecyclerView.ViewHolder{
+   public class viewholder_regime extends RecyclerView.ViewHolder{
         private TextView categorytitle;
         private ImageView categorypic;
-        public viewholder(@NonNull View itemView){
+        public viewholder_regime(@NonNull View itemView){
             super(itemView);
             categorytitle = itemView.findViewById(R.id.category_regime_title);
             categorypic = itemView.findViewById(R.id.category_regime_pic);
