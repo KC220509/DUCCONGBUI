@@ -2,28 +2,48 @@
    "monan":[
       {
          "tenmon":"Hamburger",
-         "soluong":"10",
-         "dongia":"20000"
+         "soluong":"12",
+         "dongia":"23000"
       },
       {
          "tenmon":"Bò cuộn mỹ",
-         "soluong":"10",
+         "soluong":"11",
          "dongia":"20000"
       },
       {
          "tenmon":"Đậu hũ nướng",
-         "soluong":"10",
-         "dongia":"20000"
+         "soluong":"09",
+         "dongia":"20450"
       },
       {
          "tenmon":"Mỳ xào hải sản",
-         "soluong":"10",
-         "dongia":"20000"
+         "soluong":"40",
+         "dongia":"20010"
+      },
+      {
+         "tenmon":"Tôm chiên xù",
+         "soluong":"42",
+         "dongia":"40000"
+      },
+      {
+         "tenmon":"Mỳ xào hải sản",
+         "soluong":"11",
+         "dongia":"24000"
       },
       {
          "tenmon":"Tôm chiên xù",
          "soluong":"10",
-         "dongia":"20000"
+         "dongia":"21100"
+      },
+      {
+         "tenmon":"Mỳ xào hải sản",
+         "soluong":"50",
+         "dongia":"22000"
+      },
+      {
+         "tenmon":"Tôm chiên xù",
+         "soluong":"20",
+         "dongia":"25000"
       },
       {
          "tenmon":"Ếch xào sả ớt",
