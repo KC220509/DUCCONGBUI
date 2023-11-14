@@ -9,47 +9,56 @@
       {
          "tenmon":"Bò cuộn mỹ",
          "soluong":"11",
-         "dongia":"20000"
+         "dongia":"20000",
+         "hinhanh" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd-V0zaPDgJet9l7GZLygXR4rXfGDkYrvu7g&usqp=CAU"
       },
       {
          "tenmon":"Đậu hũ nướng",
          "soluong":"09",
-         "dongia":"20450"  
+         "dongia":"20450",
+         "hinhanh" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9Dw2JOAoCd1SYGcSC7tlJ25dCzhV5P4zYw&usqp=CAU"
       },
       {
          "tenmon":"Mỳ xào hải sản",
          "soluong":"40",
-         "dongia":"20010"
+         "dongia":"20010",
+         "hinhanh" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqrafZ9p7edkw8pX1XUw-2zrG0K8NlFJVAHQ&usqp=CAU"
       },
       {
          "tenmon":"Tôm chiên xù",
          "soluong":"42",
-         "dongia":"40000" 
+         "dongia":"40000",
+         "hinhanh" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd-V0zaPDgJet9l7GZLygXR4rXfGDkYrvu7g&usqp=CAU" 
       },
       {
          "tenmon":"Mỳ xào hải sản",
          "soluong":"11",
-         "dongia":"24000"
+         "dongia":"24000",
+         "hinhanh" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9Dw2JOAoCd1SYGcSC7tlJ25dCzhV5P4zYw&usqp=CAU"
       },
       {
          "tenmon":"Tôm chiên xù",
          "soluong":"10",
-         "dongia":"21100"    
+         "dongia":"21100",
+          "hinhanh" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqrafZ9p7edkw8pX1XUw-2zrG0K8NlFJVAHQ&usqp=CAU"    
       },
       {
          "tenmon":"Mỳ xào hải sản",
          "soluong":"50",
-         "dongia":"22000"
+         "dongia":"22000",
+         "hinhanh" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9Dw2JOAoCd1SYGcSC7tlJ25dCzhV5P4zYw&usqp=CAU"
       },
       {
          "tenmon":"Tôm chiên xù",
          "soluong":"20",
-         "dongia":"25000"
+         "dongia":"25000",
+         "hinhanh" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9Dw2JOAoCd1SYGcSC7tlJ25dCzhV5P4zYw&usqp=CAU"
       },
       {
          "tenmon":"Ếch xào sả ớt",
          "soluong":"10",
-         "dongia":"20000" 
+         "dongia":"20000",
+         "hinhanh" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9Dw2JOAoCd1SYGcSC7tlJ25dCzhV5P4zYw&usqp=CAU" 
       }
    ]
 }
